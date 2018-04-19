@@ -1,0 +1,12 @@
+Source: ros-kinetic-humanoid-navigation
+Section: misc
+Priority: extra
+Maintainer: Pramuditha Aravinda <aravindadp@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/humanoid_navigation
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-humanoid-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-footstep-planner, ros-kinetic-gridmap-2d, ros-kinetic-humanoid-localization, ros-kinetic-humanoid-planner-2d
+Description: This stack contains packages for humanoid (biped) navigation, developed at the Humanoid Robots Lab at the Albert-Ludwigs-Universitat in Freiburg, Germany.
