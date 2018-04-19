@@ -1,0 +1,13 @@
+Source: ros-kinetic-humanoid-localization
+Section: misc
+Priority: extra
+Maintainer: Pramuditha Aravinda <aravindadp@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, libeigen3-dev, ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamic-edt-3d, ros-kinetic-geometry-msgs, ros-kinetic-message-filters, ros-kinetic-nav-msgs, ros-kinetic-octomap, ros-kinetic-octomap-msgs, ros-kinetic-octomap-ros, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/humanoid_localization
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-humanoid-localization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libboost-all-dev, libeigen3-dev, ros-kinetic-cmake-modules, ros-kinetic-dynamic-edt-3d, ros-kinetic-geometry-msgs, ros-kinetic-message-filters, ros-kinetic-nav-msgs, ros-kinetic-octomap, ros-kinetic-octomap-msgs, ros-kinetic-octomap-ros, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-std-msgs, ros-kinetic-std-srvs, ros-kinetic-tf, ros-kinetic-visualization-msgs
+Description: 6D localization for humanoid robots based on depth data (laser, point clouds).
+ Two observation models are currently available based on OctoMap as 3D map: Ray casting and an end point model (lookup in the distance map). Details can be found in the publication &quot;Humanoid Navigation with Dynamic Footstep Plans&quot; by A. Hornung, K.M. Wurm, and M. Bennewitz; published in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2010
