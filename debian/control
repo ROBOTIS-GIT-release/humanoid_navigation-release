@@ -1,0 +1,12 @@
+Source: ros-kinetic-humanoid-planner-2d
+Section: misc
+Priority: extra
+Maintainer: Pramuditha Aravinda <aravindadp@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-gridmap-2d, ros-kinetic-roscpp, ros-kinetic-sbpl, ros-kinetic-visualization-msgs
+Homepage: http://wiki.ros.org/humanoid_planner_2d
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-humanoid-planner-2d
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-geometry-msgs, ros-kinetic-gridmap-2d, ros-kinetic-roscpp, ros-kinetic-sbpl, ros-kinetic-visualization-msgs
+Description: humanoid_planner_2d - provides a simple 2D path planner as wrapper around SBPL (ARA*, AD*, R*).
